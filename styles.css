@@ -1,2 +1,8 @@
-
 /* Your CSS Code here. */
+button{
+	text-align:center;
+	width:100%;
+}
+.row{
+	text-align:center;
+}

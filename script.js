@@ -23,6 +23,7 @@ const getSum = () => {
     totalCell.style.textAlign = "center";
     totalCell.textContent = "Total Price: ₹" + total;
 
+	totalCell.id = "ans";
 	totalRow.appendChild(totalCell);
 
 	document.querySelector("table").appendChild(totalRow);
